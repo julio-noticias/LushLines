@@ -1,0 +1,17 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: #e5f7f7;
+    color: #000;
+    width: 100vw;
+    margin-right: 0px;
+}
+
+.titulo {
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: xx-large;
+    margin-bottom: 15% !important;
+    width: 88%;
+
+}

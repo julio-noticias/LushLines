@@ -1,0 +1,14 @@
+.card-flex{
+border: solid 2px black;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap:5%;
+padding: 3%;
+border-radius:15%;
+}
+
+.degrade{
+background-image: linear-gradient(to bottom,#EB0C78, #C900E5);
+}

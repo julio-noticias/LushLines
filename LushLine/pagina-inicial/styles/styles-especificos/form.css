@@ -1,0 +1,95 @@
+.card-flex div{
+  padding: 5%;
+}
+
+form{
+
+display:flex;
+flex-direction: column;
+align-items:center;
+}
+
+span input{
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+
+span input{
+  width: 90%;
+}
+
+span{
+margin: 0;
+}
+
+
+
+
+/*DOM*/
+
+.span-label-vertical{
+  font-size: 2vh;
+}
+
+.span-label-horizontal{
+  font-size: 2vw;
+}
+
+.span-input-horizontal{
+  font-size: 1.2vw;
+}
+
+.span-input-vertical{
+  font-size: 1.2vh;
+}
+
+.titulo-login-vertical{
+font-size: 3vh;
+}
+
+.titulo-login-horizontal{
+font-size: 3vw;
+}
+
+/****************************/
+
+
+
+form span{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+div form button{
+display:flex;
+justify-content: center;
+align-items: center;
+
+  width: 20vw;
+  height:5vh;
+}
+
+.centralizamento{
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+}
+
+.preenchimento{
+  width: 90%;
+  height: 90%;
+}
+
+.margin-bottom{
+margin-bottom: 5% !important;
+}
+
+.padding{
+padding:4%;
+}
+
+.negrito{
+  font-weight: bold;
+}

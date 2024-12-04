@@ -1,0 +1,337 @@
+header {
+    background-image: linear-gradient(to right, #EB0C78, #C900E5);
+    color: #ddd;
+    text-align: center;
+    display: flex;
+    padding-left: 20px;
+    justify-content: space-between;
+    height: 10vh;
+}
+
+.header-horizontal{
+    height: 16vh !important;
+}
+
+.header {
+    background-color: rgb(red, green, blue, 0);
+    color: #ddd;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    width: 90%;
+    justify-content:end;
+    align-items: center;
+}
+
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.quadradinho {
+    background-color: white !important;
+    position: relative;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    display:flex;
+    flex-direction: center;
+    justify-content: center;
+}
+
+.botao-login {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+
+/* 0px - 300px */
+
+
+@media (max-width: 300px){
+
+header {
+    padding-left: 20px;
+    height: 8vh;
+}
+
+.header {
+    width: 90%;
+}
+
+.header img {
+    height: 40px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.quadradinho {
+    width: 35px;
+    height: 25px;
+}
+
+.botao-login {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+}
+
+
+/* 301px - 400px */
+
+
+@media (min-width: 301px) and (max-width: 400px){
+
+header {
+    padding-left: 30px;
+    height: 10vh;
+}
+
+.header {
+    width: 90%;
+}
+
+.header img {
+    height: 50px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.quadradinho {
+    width: 45px;
+    height: 35px;
+}
+
+.botao-login {
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}
+
+}
+
+
+/* 401px - 500px */
+
+
+@media (min-width: 401px) and (max-width: 500px){
+
+header {
+    padding-left: 30px;
+    height: 10vh;
+}
+
+.header {
+    width: 90%;
+}
+
+.header img {
+    height: 50px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.quadradinho {
+    width: 50px;
+    height: 40px;
+}
+
+.botao-login {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+}
+
+}
+
+
+/* 501px - 700px */
+
+
+@media (min-width: 501px) and (max-width: 700px){
+
+header {
+    padding-left: 40px;
+    height: 10vh;
+}
+
+.header {
+    width: 87%;
+}
+
+.header img {
+    height: 60px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.quadradinho {
+    width: 55px;
+    height: 45px;
+}
+
+.botao-login {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+}
+
+/* 701px - 900px */
+
+
+@media (min-width: 701px) and (max-width: 800px){
+
+header {
+    padding-left: 60px;
+    height: 10vh;
+}
+
+.header {
+    width: 87%;
+}
+
+.header img {
+    height: 57px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.quadradinho {
+    width: 55px;
+    height: 45px;
+}
+
+.botao-login {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+}
+
+
+/* 801px - 900px */
+
+
+@media (min-width: 801px) and (max-width: 900px){
+
+header {
+    padding-left: 60px;
+    height: 10vh;
+}
+
+.header {
+    width: 90%;
+}
+
+.header img {
+    height: 57px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.quadradinho {
+    width: 55px;
+    height: 45px;
+}
+
+.botao-login {
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+}
+
+}
+
+
+/* 901px - infinity */
+
+
+@media (min-width: 901px){
+
+header {
+    padding-left: 6%;
+    height: 10vh;
+}
+
+.header {
+    width: 90%;
+    padding-right: 1%;
+}
+
+.header img {
+    height: 10vh;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.quadradinho {
+    width: 5%;
+    height: 80%;
+}
+
+.botao-login {
+    border-radius: 50%;
+    height: 8.5vh;
+    width: 8vh;
+}
+
+.botao-login .icone-botao{
+    font-size: 2vw;
+}
+
+}
+
+
+/* Ipad Air*/ 
+
+@media (width: 820px) and (height: 1180px){   
+
+header {
+    padding-left: 6%;
+    height: 10vh;
+}
+
+.header {
+    width: 90%;
+    padding-right: 1%;
+}
+
+.header img {
+    height: 9.6vh;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+.quadradinho {
+    width: 5%;
+    height: 80%;
+}
+
+.botao-login {
+    border-radius: 50%;
+    height: 7vh;
+    width: 7vh;
+}
+
+}

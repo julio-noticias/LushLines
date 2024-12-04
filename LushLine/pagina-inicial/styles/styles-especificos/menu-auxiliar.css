@@ -1,0 +1,83 @@
+.menu-auxiliar{
+  background-color: #B03228;
+  width:100%;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+  display:flex;
+}
+
+.letras-pequenas{
+  color: white;
+}
+
+.disabled{
+  color: #adb5bd;
+}
+
+.meus-cursos-link{
+  text-decoration: none;
+  color: white;
+}
+
+.meus-cursos-link:hover{
+  color:#0096d2 !important;
+  text-decoration: none;
+}
+
+
+/* 0px - 250px */
+
+
+@media (max-width:250px){
+  .letras-pequenas{
+    font-size: 8px;
+  }
+
+}
+
+
+/* 251px - 350px */
+
+
+@media (min-width: 251px) and (max-width:350px){
+    .letras-pequenas{
+    font-size: 10px;
+  }
+  
+}
+
+
+/* 351px - 400px */
+
+
+@media (min-width:351px) and (max-width:400px){
+  
+  .letras-pequenas{
+    font-size: 13px;
+  }
+
+}
+
+
+/* 401px - 450px */
+
+
+@media (min-width:401px) and (max-width:450px){
+  
+  .letras-pequenas{
+    font-size: 14px;
+  }
+  
+}
+
+/* 901px - infinity*/
+
+.letras-pequenas-horizontal{
+  font-size: 1.5vw;
+}
+
+.letras-pequenas-vertical{
+  font-size: 1.5vh;
+}

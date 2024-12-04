@@ -1,0 +1,29 @@
+.menu-acessivo {
+    transition: 1s !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 7%;
+    gap:12%;
+}
+
+.menu-acessivo-after {
+    background-color: rgb(100, 100, 100, 0);
+    height: 50vh;
+}
+
+.menu-acessivo-horizontal{
+height:80vh !important;
+}
+
+.barra-acessivel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    gap: 11%;
+    justify-content: center;
+    transition: 1s !important;
+    transform: scale(1.1) !important;
+}

@@ -1,0 +1,85 @@
+@import url(styles-especificos/corpo-section-meus-cursos.css);
+@import url(styles-especificos/div-container-meus-cursos.css);
+
+/* 1200px - infinity */
+
+@media (min-width:1200px){
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+
+header {
+  width: 100vw;
+}
+
+main {
+  flex: 1;
+  /* Garante que o main ocupe o espaço restante */
+}
+
+/* Garantir que o footer tenha uma altura adequada e apareça no final */
+
+
+/* Base configuration for the main element */
+
+main {
+  width: 100vw;
+  margin-right: 0px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  padding: 5%;
+}
+
+/* Responsiveness for different screen sizes */
+
+
+@media (max-width: 300px) {
+  main {
+    background-image: url(imagens-respectivas-ao-site/aulas-gratuitas-mobile.png) !important;
+    background-color: rgb(0,0,0,0.7);
+  }
+
+
+}
+
+@media (min-width: 301px) and (max-width: 400px) {
+  main {
+    background-image: url(imagens-respectivas-ao-site/aulas-gratuitas-mobile.png) !important;
+  }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+  main {
+    background-image: url(imagens-respectivas-ao-site/aulas-gratuitas-mobile.png) !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 800px) {
+  main {
+    background-image: url(imagens-respectivas-ao-site/aulas-gratuitas-mobile.png) !important;
+  }
+}
+
+@media (min-width: 801px) and (max-width: 1000px) {
+  main {
+    background-image: url(imagens-respectivas-ao-site/aulas-gratuitas-desktop.png) !important;
+  }
+}
+
+@media (min-width: 1001px) and (max-width: 1200px) {
+  main {
+    background-image: url(imagens-respectivas-ao-site/aulas-gratuitas-desktop.png) !important;
+  }
+}
+
+@media (min-width: 1201px) {
+  main {
+    background-image: url(imagens-respectivas-ao-site/aulas-gratuitas-desktop.png) !important;
+  }
+}

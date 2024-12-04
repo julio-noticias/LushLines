@@ -1,0 +1,401 @@
+.lupa-ativada {
+    width: 220px !important;
+}
+
+@media (max-width:300px) {
+
+    .mae_search {
+        position: relative;
+        display: flex;
+        gap: 1%;
+        height: 30px;
+        width: 20px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+    }
+
+    .lupa-ativada {
+        width: 145px !important;
+    }
+
+    .mae-center {
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15%;
+
+    }
+
+    .mae_search2 {
+
+        position: relative;
+        display: flex;
+        height: 30px;
+        width: 145px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+
+    }
+
+    .lupa_search,
+    .x_search {
+
+        height: 30px;
+        min-width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .x_search i {
+        color: #d3b610;
+        font-size: 25px;
+
+    }
+
+    .bi-search {
+
+        font-size: 15px;
+        color: #d3b610;
+
+    }
+
+    .input_search {
+
+        position: absolute;
+        left: 23px;
+        width: 100px;
+        height: 23px;
+        line-height: 23px;
+
+    }
+
+    .input_search_label {
+
+        border: 0;
+        outline: 0;
+        font-size: 10px;
+        width: 100px
+    }
+
+}
+
+@media (min-width:301px) and (max-width: 720px) {
+
+    .mae_search {
+        position: relative;
+        display: flex;
+        gap: 1%;
+        height: 30px;
+        width: 30px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+    }
+
+    .mae-center {
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15%;
+
+    }
+
+    .mae_search2 {
+
+        position: relative;
+        display: flex;
+        height: 30px;
+        width: 30px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+
+    }
+
+    .lupa_search,
+    .x_search {
+
+        height: 30px;
+        min-width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .x_search i {
+        color: #d3b610;
+        font-size: 30px;
+
+    }
+
+    .lupa_search i {
+
+        font-size: 15px;
+        color: #d3b610;
+
+    }
+
+    .input_search {
+
+        position: absolute;
+        left: 25px;
+        width: calc(100%-120px);
+        height: 25px;
+        line-height: 25px;
+
+    }
+
+    .input_search_label {
+
+        border: 0;
+        outline: 0;
+        font-size: 11px;
+
+    }
+
+
+}
+
+
+@media (min-width:721px) and (max-width: 1200px) {
+
+    .mae_search {
+        position: relative;
+        display: flex;
+        gap: 1%;
+        height: 25px;
+        width: 22px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+        margin-bottom: 15%;
+    }
+
+    .mae-center {
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mae_search2 {
+
+        position: relative;
+        display: flex;
+        height: 30px;
+        width: 30px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+
+    }
+
+    .lupa_search,
+    .x_search {
+
+        height: 30px;
+        min-width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .x_search i {
+        color: #d3b610;
+        font-size: 30px;
+
+    }
+
+    .lupa_search i {
+
+        font-size: 15px;
+        color: #d3b610;
+
+    }
+
+    .input_search {
+
+        position: absolute;
+        left: 25px;
+        width: calc(100%-120px);
+        height: 25px;
+        line-height: 25px;
+
+    }
+
+    .input_search_label {
+
+        border: 0;
+        outline: 0;
+        font-size: 11px;
+
+    }
+
+
+}
+
+@media (min-width:1201px) and (max-width: 1487px) {
+
+    .mae_search {
+        position: relative;
+        display: flex;
+        gap: 1%;
+        height: 25px;
+        width: 22px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+    }
+
+    .mae-center {
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15%;
+
+    }
+
+    .mae_search2 {
+
+        position: relative;
+        display: flex;
+        height: 30px;
+        width: 30px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+
+    }
+
+    .lupa_search,
+    .x_search {
+
+        height: 30px;
+        min-width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .x_search i {
+        color: #d3b610;
+        font-size: 30px;
+
+    }
+
+    .lupa_search i {
+
+        font-size: 15px;
+        color: #d3b610;
+
+    }
+
+    .input_search {
+
+        position: absolute;
+        left: 25px;
+        width: calc(100%-120px);
+        height: 25px;
+        line-height: 25px;
+
+    }
+
+    .input_search_label {
+
+        border: 0;
+        outline: 0;
+        font-size: 11px;
+
+    }
+
+
+}
+
+@media (min-width:1488px) {
+
+    .mae_search {
+        position: relative;
+        display: flex;
+        gap: 1%;
+        height: 50px;
+        width: 50px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+    }
+
+    .mae-center {
+
+        display: flex;
+        justify-content: center;
+        margin-bottom: 15%;
+
+    }
+
+    .mae_search2 {
+
+        position: relative;
+        display: flex;
+        height: 30px;
+        width: 30px;
+        overflow: hidden;
+        justify-content: space-between;
+        transition: 0.5s;
+
+    }
+
+    .lupa_search,
+    .x_search {
+
+        height: 30px;
+        min-width: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+
+    .x_search i {
+        color: #d3b610;
+        font-size: 30px;
+
+    }
+
+    .lupa_search i {
+
+        font-size: 15px;
+        color: #d3b610;
+
+    }
+
+    .input_search {
+
+        position: absolute;
+        left: 25px;
+        width: calc(100%-120px);
+        height: 25px;
+        line-height: 25px;
+
+    }
+
+    .input_search_label {
+
+        border: 0;
+        outline: 0;
+        font-size: 11px;
+
+    }
+
+}

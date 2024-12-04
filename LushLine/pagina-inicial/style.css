@@ -1,0 +1,23 @@
+@import url(styles/styles-especificos/reset.css);
+@import url(styles/styles-especificos/header.css);
+
+@import url(styles/styles-especificos/menu-auxiliar.css);
+
+@import url(styles/styles-especificos/body.css);
+@import url(styles/menu-acessivo.css);
+
+@import url(styles/styles-especificos/div-container-login.css);
+
+@import url(styles/main.css);
+
+@import url(styles/barra-expansiva.css);
+
+@import url(styles/styles-especificos/card-flex.css);
+
+@import url(styles/styles-especificos/form.css);
+
+@import url(styles/easter-eggs.css);
+
+@import url(styles/styles-especificos/barra-de-busca.css);
+
+@import url(styles/styles-especificos/footer.css);

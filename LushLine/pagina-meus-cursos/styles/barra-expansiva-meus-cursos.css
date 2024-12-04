@@ -1,0 +1,33 @@
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+#botao-expansivo {
+    background-color: aliceblue;
+    color: black;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 10% !important;
+    transition: 1s !important;
+    font-size: 12px;
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+}
+
+
+.card-expandida{
+    background-color: pink;
+    width: 100%;
+}
+
+
+
+.list-group-item{
+    font-size:2vw;
+}
+
+    .p-centralizado {
+        width: 60vw;
+}
+

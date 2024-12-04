@@ -1,0 +1,85 @@
+.high-contrast{
+    background-color: #000 !important;
+    color: #e5f7f7;
+}
+
+.high-contrast{
+    color: #00ff00 !important;
+    --bs-body-color: #00ff00 !important;
+    --bs-list-group-bg: #5A5A5A !important;
+    --bs-body-bg: #5A5A5A !important;
+}
+
+.high-contrast-p{
+    color: #00ff00 !important;
+}
+
+.high-contrast-degrade{
+    background-image: linear-gradient(to right, #292929, #002970) !important;
+}
+
+.high-contrast-degrade-down{
+    background-image: linear-gradient(to bottom, #292929, #002970) !important;
+}
+
+.menu-auxiliar-contraste{
+    background-color: #b031288f;
+}
+
+.high-contrast-button-color {
+    background-color: #004E4D !important;
+    color: #00ff00 !important;
+}
+
+.high-contrast-border {
+    border: solid #00ff00 !important;
+}
+
+.high-contrast body {
+    background-color: #000;
+    color: #e5f7f7;
+}
+
+/* modo noturno */
+
+.modo-noturno {
+    color: #f0fff0;
+    --bs-body-color: #f0fff0;
+    --bs-list-group-bg: #0f0f0f;
+    --bs-body-bg: #0f0f0f;
+    --bs-border-color-translucent: #5a5a5a !important;
+    --bs-card-border-color: var(--bs-border-color-translucent) !important;
+}
+
+.modo-noturno-p{
+    color: #f0fff0 !important;
+}
+
+.modo-noturno-degrade{
+    background-image: linear-gradient(to right, #000000, #4a4a4a) !important;
+}
+
+.modo-noturno-degrade-down{
+    background-image: linear-gradient(to bottom, #000000, #4a4a4a) !important; 
+}
+
+.modo-noturno-button-color {
+    background-color: #0f0f0f !important;
+    color: #f0fff0 !important;
+    border: solid 1px #5a5a5a !important;
+}
+
+.modo-noturno body {
+    background-color: #000;
+    color: #e5f7f7;
+}
+
+.main-image{
+    background-image: url(imagens-respectivas-ao-site/aulas-gratuitas-desktop-noturno.png)
+    !important;
+}
+
+.main-image-mobile{
+    background-image: url(imagens-respectivas-ao-site/aulas-gratuitas-mobile-noturno.png) 
+    !important;
+}

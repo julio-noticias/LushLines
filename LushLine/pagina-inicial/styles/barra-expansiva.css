@@ -1,0 +1,30 @@
+*{
+  margin: 0; 
+  padding: 0;
+}
+
+#botao-expansivo {
+    background-color: aliceblue;
+    color: black;
+    width: 100% !important;
+    height: 100% !important;
+    border-radius: 5px !important;
+    transition: 1s !important;
+    font-size: 12px;
+    margin-top: 15% !important;
+    margin-bottom: 15% !important;
+
+}
+
+.list-group-item{
+    font-size:10px;
+}
+
+@media (max-width: 300px) {
+
+    .p-centralizado {
+        width: 120px;
+        margin-bottom: 2px !important;
+    }
+
+}

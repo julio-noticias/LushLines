@@ -1,0 +1,23 @@
+.corpo{
+    display: grid !important;
+    grid-template-columns: 7fr 1fr !important;
+}
+
+.lead{
+  justify-content: space-between;
+  display: flex;
+}
+
+.corpo-black{
+    background-color: pink;
+    border: dashed 5px;
+}
+
+
+@media (min-width:1200px){
+
+.corpo{
+width:85vw;
+}
+
+}
